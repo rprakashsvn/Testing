@@ -1,0 +1,28 @@
+ Volume in drive D is Data's
+ Volume Serial Number is BC1B-943F
+
+ Directory of D:\Studies\Selenium
+
+02/19/2019  10:36 PM    <DIR>          .
+02/19/2019  10:36 PM    <DIR>          ..
+02/14/2019  01:50 AM             5,004 .classpath
+02/11/2019  10:51 PM               384 .project
+02/11/2019  10:51 PM    <DIR>          .settings
+02/17/2019  12:54 AM               274 AppConfigs.properties
+02/18/2019  11:44 PM    <DIR>          bin
+02/11/2019  11:30 PM    <DIR>          Drivers
+02/19/2019  12:09 AM               372 FailedTC.xml
+02/18/2019  11:06 PM               665 GroupTests.xml
+02/18/2019  10:06 PM               412 Listerners.xml
+02/17/2019  12:53 AM                66 Locators.properties
+02/18/2019  10:38 PM               764 ParallelTest.xml
+02/18/2019  10:17 PM               368 Parameters.xml
+02/18/2019  11:19 PM               506 ParameterTests2.xml
+02/18/2019  07:24 PM    <DIR>          Reports
+02/13/2019  09:25 PM    <DIR>          Screenshots
+02/18/2019  11:44 PM    <DIR>          src
+02/19/2019  12:26 AM    <DIR>          test-output
+02/19/2019  10:36 PM                 0 test.txt
+02/18/2019  10:25 PM    <DIR>          TestData
+              11 File(s)          8,815 bytes
+              10 Dir(s)  25,244,606,464 bytes free
