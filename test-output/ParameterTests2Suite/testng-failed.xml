@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ParameterTests2Suite]">
+  <test thread-count="5" name="ParameterTests2Test(failed)">
+    <parameter name="myNames" value="Prakashpandian Rajaram"/>
+    <classes>
+      <class name="TestNGAttributes.ParameterTests2">
+        <methods>
+          <include name="LaunchBrowsers"/>
+        </methods>
+      </class> <!-- TestNGAttributes.ParameterTests2 -->
+    </classes>
+  </test> <!-- ParameterTests2Test(failed) -->
+</suite> <!-- Failed suite [ParameterTests2Suite] -->

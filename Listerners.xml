@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ListernersSuite">
+	<listeners>
+		<listener class-name="TestNGAttributes.ListernersTest" />
+	</listeners>
+	<test name="ListernersSuiteTest">
+		<classes>
+			<class name="TestNGAttributes.ListernersTest" />
+		</classes>
+	</test> <!-- ListernersSuiteTest -->
+</suite> <!-- ListernersSuite -->

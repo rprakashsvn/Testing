@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParametersSuite">
+	<test name="ParametersTest">
+		<parameter name="BrowserName" value="IE"></parameter>
+		<classes>
+			<class name="TestNGAttributes.ParallelTests" />
+		</classes>
+	</test> <!-- ParametersTest -->
+</suite> <!-- ParametersSuite -->

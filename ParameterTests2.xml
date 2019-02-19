@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="ParameterTests2Suite">
+	<!--// 2nd preference for suite tag -->
+	<parameter name="myName" value="Rajesh Rajaram"></parameter>
+
+	<test name="ParameterTests2Test">
+		<!--// 1st preference for test tag -->
+		<parameter name="myName" value="Prakashpandian Rajaram"></parameter>
+		<classes>
+			<class name="TestNGAttributes.ParameterTests2"></class>
+		</classes>
+	</test>
+
+</suite> 

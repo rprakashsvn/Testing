@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [ParametersSuite]" parallel="tests">
+  <test thread-count="3" name="IE(failed)" parallel="tests">
+    <parameter name="BrowserName" value="IE"/>
+    <classes>
+      <class name="TestNGAttributes.ParallelTests">
+        <methods>
+          <include name="LaunchBrowsers"/>
+          <include name="GoogleTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestNGAttributes.ParallelTests -->
+      <class name="DataProviders.ReadExcelFileFramework">
+        <methods>
+          <include name="Sheet1" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- DataProviders.ReadExcelFileFramework -->
+    </classes>
+  </test> <!-- IE(failed) -->
+  <test thread-count="3" name="Firefox(failed)" parallel="tests">
+    <parameter name="BrowserName" value="Firefox"/>
+    <classes>
+      <class name="TestNGAttributes.ParallelTests">
+        <methods>
+          <include name="LaunchBrowsers"/>
+          <include name="GoogleTest"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestNGAttributes.ParallelTests -->
+      <class name="DataProviders.ReadExcelFileFramework">
+        <methods>
+          <include name="Sheet1" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- DataProviders.ReadExcelFileFramework -->
+    </classes>
+  </test> <!-- Firefox(failed) -->
+  <test thread-count="3" name="Chrome(failed)" parallel="tests">
+    <parameter name="BrowserName" value="Chrome"/>
+    <classes>
+      <class name="DataProviders.ReadExcelFileFramework">
+        <methods>
+          <include name="Sheet1" invocation-numbers="1"/>
+        </methods>
+      </class> <!-- DataProviders.ReadExcelFileFramework -->
+    </classes>
+  </test> <!-- Chrome(failed) -->
+</suite> <!-- Failed suite [ParametersSuite] -->
