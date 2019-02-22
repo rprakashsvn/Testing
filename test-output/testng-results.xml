@@ -1,17 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10553" started-at="2019-02-18T19:03:00Z" finished-at="2019-02-18T19:03:11Z">
+  <suite name="Default suite" duration-ms="143" started-at="2019-02-22T19:20:47Z" finished-at="2019-02-22T19:20:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10553" started-at="2019-02-18T19:03:00Z" finished-at="2019-02-18T19:03:11Z">
-      <class name="TestNGAttributes.HeadlessBrowser">
-        <test-method status="PASS" signature="HeadLessBrowserTest()[pri:0, instance:TestNGAttributes.HeadlessBrowser@135c3b]" name="HeadLessBrowserTest" duration-ms="10469" started-at="2019-02-18T19:03:01Z" finished-at="2019-02-18T19:03:11Z">
+    <test name="Default test" duration-ms="143" started-at="2019-02-22T19:20:47Z" finished-at="2019-02-22T19:20:47Z">
+      <class name="Basics.Log4jTests">
+        <test-method status="PASS" signature="Test1()[pri:0, instance:Basics.Log4jTests@14bac49]" name="Test1" duration-ms="30" started-at="2019-02-22T19:20:47Z" finished-at="2019-02-22T19:20:47Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HeadLessBrowserTest -->
-      </class> <!-- TestNGAttributes.HeadlessBrowser -->
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:Basics.Log4jTests@14bac49]" name="Test2" duration-ms="6" started-at="2019-02-22T19:20:47Z" finished-at="2019-02-22T19:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test3()[pri:0, instance:Basics.Log4jTests@14bac49]" name="Test3" duration-ms="2" started-at="2019-02-22T19:20:47Z" finished-at="2019-02-22T19:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="Test4()[pri:0, instance:Basics.Log4jTests@14bac49]" name="Test4" duration-ms="3" started-at="2019-02-22T19:20:47Z" finished-at="2019-02-22T19:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test4 -->
+        <test-method status="PASS" signature="Test5()[pri:0, instance:Basics.Log4jTests@14bac49]" name="Test5" duration-ms="17" started-at="2019-02-22T19:20:47Z" finished-at="2019-02-22T19:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test5 -->
+        <test-method status="PASS" signature="Test6()[pri:0, instance:Basics.Log4jTests@14bac49]" name="Test6" duration-ms="3" started-at="2019-02-22T19:20:47Z" finished-at="2019-02-22T19:20:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test6 -->
+      </class> <!-- Basics.Log4jTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

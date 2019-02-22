@@ -16,6 +16,8 @@ public class BrowserStackTests {
 
 	public static void main(String[] args) throws Exception {
 
+		//Test File
+		
 		DesiredCapabilities caps = new DesiredCapabilities();
 		caps.setCapability("os", "Windows");
 		caps.setCapability("os_version", "10");

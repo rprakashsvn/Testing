@@ -3,7 +3,6 @@ package FailedTestCases;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-
 @Test(retryAnalyzer = Tranformer.class)
 public class TestCases {
 	@Test
@@ -20,7 +19,6 @@ public class TestCases {
 	public void test3() {
 		Assert.assertTrue(false);
 		System.out.println("Test 3 (2)");
-
 	}
 
 	@Test
